@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+   
+  }
+
+header{
+   
+    font-family: 'Inconsolata', monospace;
+    display:flex;
+    
+    align-items:center;
+    justify-content:space-between;
+    padding:25px 10%;
+    background-color:  #222831;  
+}
+
+.nav__links{
+    list-style:none;
+    
+    
+    
+}
+a{
+    text-decoration:none;
+    color:#eeeeee;
+    font-size:20px;
+    
+    
+}
+a:hover{
+    transition: all .5s ease 0s;
+    color: #ff0000; 
+}
+
+.nav__links li{
+    display:inline-block;
+    padding:0px 20px;
+   
+    
+    }
+
+    
+#homepage{
+    background-color:#393e46;
+}
+
+#doral_logo{
+    border-radius:60px;
+    width:60px;
+    justify-content:left;
+    
+    
+    
+}
+
+
+
+
