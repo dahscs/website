@@ -21,7 +21,7 @@ header{
 footer{
     font-family: 'Inconsolata', monospace;
     display:flex;
-    color:white;
+    color:rgb(111, 148, 62);
     align-items:center;
     justify-content:center;
     padding:25px 10%;
@@ -79,6 +79,7 @@ main{
 }
 
 #buttonprevious, #buttonforward {
+    
     background-color: transparent;
     appearance: none;
     border: none;
@@ -91,7 +92,7 @@ main{
     
   }
   #buttonprevious:hover, #buttonforward:hover{
-      transition: all .2s ease-in-out;
+      transition: all .3s ease-in-out;
       cursor:pointer;
       filter: brightness(1);
 
@@ -103,9 +104,38 @@ main{
 #imgandbutton{
     display:flex;
     vertical-align:middle; 
+    margin-bottom:0px;
 }
 #descp{
     font-size:20px;
+    margin-top:0px;
     font-family: 'Inconsolata', monospace;
     color:#eeeeee;
+}
+
+#clubPic1, #clubPic2, #clubPic3{
+
+    position:absolute;
+    left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+
+
+}
+
+#clubimages {
+    position:relative;
+    height:562.5px;
+    width:1000px;
+    margin:0 auto;
+  }
+
+#clubPic2{
+    opacity:0;
+}
+
+#clubPic3{
+    opacity:0;
 }
